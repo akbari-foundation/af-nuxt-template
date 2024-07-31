@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "develop": "NODE_TLS_REJECT_UNAUTHORIZED='0' BASE_URL=https://akbari.localhost/ nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.4.3",
+    "@nuxt/image": "^1.7.0",
+    "@tiptap/extension-image": "^2.4.0",
+    "@tiptap/extension-link": "^2.4.0",
+    "@tiptap/pm": "^2.4.0",
+    "@tiptap/starter-kit": "^2.4.0",
+    "@tiptap/vue-3": "^2.4.0",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7"
+  }
+}
